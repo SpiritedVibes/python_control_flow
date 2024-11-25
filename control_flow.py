@@ -230,6 +230,14 @@ is still truthy or there are still items to iterate through.
 #     print(num)
 #     # prints the integers: 0, 1, 2, 3, 4
 
-for even in range(4, 12, 2):
-    print(even)
-    # prints the integers: 4, 6, 8, 10
+# for even in range(4, 12, 2):
+#     print(even)
+#     # prints the integers: 4, 6, 8, 10
+
+# nums = list(range(10))
+# print(nums)
+# # prints: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# for num in range(5, 0, -1):
+#     print(num)
+#     # prints the integers: 5, 4, 3, 2, 1
